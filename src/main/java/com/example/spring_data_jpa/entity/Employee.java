@@ -34,7 +34,7 @@ public class Employee {
 
     private BigDecimal salary;
 
-    private String address;
+    private String email;
 
     @CreationTimestamp
     private LocalDateTime createdAt;
