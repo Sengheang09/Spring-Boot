@@ -23,4 +23,5 @@ public class RoleEntity {
     @JsonManagedReference
     @OneToMany(mappedBy = "role")
     private List<UserEntity> user;
+
 }
